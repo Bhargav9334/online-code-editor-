@@ -1,0 +1,1 @@
+{"html":"<div class='container'>Dark Theme</div>","css":"body { background: #121212; color: #fff; } .container { padding: 20px; font-family: sans-serif; }","js":"document.body.style.fontFamily = 'monospace';"}

@@ -1,0 +1,77 @@
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  padding: 10px 20px;
+  background-color: #1e293b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+.save-btn {
+  background: #2563eb;
+  border: none;
+  padding: 10px 16px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.save-btn:hover {
+  background: #1d4ed8;
+}
+
+.panes {
+  display: flex;
+  flex: 1;
+}
+
+.panes.full .editors {
+  display: none;
+}
+
+.pane {
+  flex: 1;
+  height: 100%;
+  overflow: auto;
+}
+
+.editors {
+  display: flex;
+  flex-direction: column;
+  background: #f0f0f0;
+  padding: 5px;
+  gap: 5px;
+}
+
+.editor-block {
+  background: #1e1e1e;
+  border-radius: 6px;
+  padding: 4px;
+  color: white;
+}
+
+.editor-block label {
+  display: block;
+  margin-bottom: 4px;
+  color: #93c5fd;
+  font-size: 14px;
+}
+
+.preview iframe {
+  border: none;
+  height: 100%;
+  width: 100%;
+}
